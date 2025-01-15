@@ -27,6 +27,6 @@ public class Fabula extends Escrito {
 
     @Override
     public String toString() {
-        return resumen();
+        return String.format("%s\n%s", resumen(), ensenanza);
     }
 }
